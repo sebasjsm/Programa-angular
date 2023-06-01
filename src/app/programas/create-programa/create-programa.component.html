@@ -2,7 +2,7 @@
 <!-- Estamos indicando que este formGroup (grupo de formulario) esta enlazado a programaForm -->
 <!-- El ngSubmit indica que ocurre si se da clic en submit: debe ocurrir si los datos de programaForm no son invalidos y ademas debe crear el programa -->
 <form [formGroup]="programaForm" (ngSubmit)="!programaForm.invalid && createPrograma(programaForm.value)">
-
+  <!-- Se arreglo el error del formGroup-->
   <!-- Esta clase sirve para envolver el formulario para darle estilos -->
   <div class="form-group">
 
