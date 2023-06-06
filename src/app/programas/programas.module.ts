@@ -4,10 +4,9 @@ import { CreateProgramaComponent } from './create-programa/create-programa.compo
 import { ReactiveFormsModule } from "@angular/forms";
 
 
-
 @NgModule({
   declarations: [
-    CreateProgramaComponent
+    CreateProgramaComponent,
   ],
   imports: [
     CommonModule,
