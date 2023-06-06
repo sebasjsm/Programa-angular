@@ -7,7 +7,7 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class ProgramasService {
-  private baseUrl: string = "https://raw.githubusercontent.com/FabianAndres2023/Programa/master/programas.json.txt";
+  private baseUrl: string = "http://localhost:8081/programa-service/programas";
 
     constructor(private httpClient: HttpClient) { }
 
